@@ -38,7 +38,10 @@ public class FirstGUI {
  *			edw apla kanoume ena object typou SimpleFrame
  *			to opoio einai hdh JFrame
  *		
- *		
+ *
+ * To Flowlayout kanei position ta buttons apo ta aristera pros ta deksia
+ * To BorderLayout Den mpainoun sti seira alla prepei na ka8oriseis esy pou 8a mpoune
+ * 
  * 
  */
 
