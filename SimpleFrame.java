@@ -6,6 +6,8 @@ public class SimpleFrame extends JFrame {
 		private JButton button = new JButton("Press me!");
 		private JLabel label = new JLabel("Go on, press the button");
 		private JPanel background = new JPanel();
+		// auto einai an xrisimopoiousa thn class ActionListenImp
+		// private ActionListenImp change = new ActionListenImp(label);
 		
 		public SimpleFrame()
 		{
@@ -18,6 +20,10 @@ public class SimpleFrame extends JFrame {
 						}
 					});//edw enallaktika dimiourgw mia allh klassh ActionListener
 			//ftiaxnw ena antikeimeno ActionListener kai mesa sth methodo actionPerformed orizw to text tou label
+			/*
+			 * enallaktika ftixanw mia class pou kanei implement thn ActionListener
+			 * k exei mesa th method actionPerformed
+			 */
 			background.add(button);//add button to background
 			background.add(label);//add label to background	
 			
